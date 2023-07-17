@@ -63,7 +63,7 @@ html{
     font-weight: var(--font-weight-bold);
   }
   a:link {
-    
+    font-style: normal;
   }
   a {
     text-decoration: none;
