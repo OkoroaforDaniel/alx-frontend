@@ -24,7 +24,10 @@ html{
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: color-black;
+    --section-title-color: var(--color-black);
+  }
+  .section-header {
+    text-align: var(--section-header-align);
   }
   .section-title{
     font-family: var(--font-family-title);
@@ -32,9 +35,6 @@ html{
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
-  }
-  .section-header {
-    text-align: var(--section-header-align);
   }
   .section-tagline{
     font-family: var(--font-family-title);
@@ -65,4 +65,3 @@ html{
   a {
     text-decoration: none;
   }
-  
