@@ -390,6 +390,7 @@ html{
     padding: var(--section-padding);
   }
   .section-header {
+    text-align: var(--section-header-align);
     padding: var(--section-header-padding);
   }
   .section-body{
@@ -398,9 +399,6 @@ html{
   .section-footer{
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
-  }
-  .footer{
-    padding: var(--footer-padding);
   }
   .section-title{
     font-family: var(--font-family-title);
@@ -454,4 +452,7 @@ html{
   }
   a:active {
     background-color: var(--color-light-grey);
+  }
+  .footer{
+    padding: var(--footer-padding);
   }
